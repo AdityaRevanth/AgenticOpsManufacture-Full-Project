@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "equipment_type": "Centrifugal Pump",
+    "title": "Bearing wear leading to high vibration and overheating",
+    "description": "Progressive bearing degradation caused vibration to climb from 2.5 mm/s to over 9 mm/s over 3 weeks, accompanied by a 20C temperature rise. Root cause was lubrication breakdown from a missed PM cycle. Resulted in unplanned 14-hour outage.",
+    "symptoms": [
+      "rising vibration",
+      "bearing housing overheating",
+      "audible grinding noise",
+      "gradual current increase"
+    ],
+    "root_cause": "Lubrication breakdown / bearing wear",
+    "corrective_action": "Replace drive-end bearing, flush and re-lubricate housing, verify shaft alignment.",
+    "severity": "high"
+  },
+  {
+    "id": 2,
+    "equipment_type": "Induction Motor",
+    "title": "Winding insulation degradation from thermal cycling",
+    "description": "Motor windings showed insulation resistance decline after repeated thermal cycling from frequent start-stop operation. Current draw increased 30% above baseline before a phase-to-ground fault tripped the breaker.",
+    "symptoms": [
+      "current draw creeping up",
+      "winding temperature above rating",
+      "intermittent breaker trips"
+    ],
+    "root_cause": "Insulation breakdown from thermal cycling",
+    "corrective_action": "Rewind or replace motor, review duty cycle, add soft-start controller.",
+    "severity": "critical"
+  },
+  {
+    "id": 3,
+    "equipment_type": "Rotary Compressor",
+    "title": "Discharge pressure loss from worn rotor seals",
+    "description": "Discharge pressure dropped steadily over two weeks while RPM held steady, indicating internal leakage past worn rotor seals. Efficiency loss increased energy consumption 18% before failure.",
+    "symptoms": [
+      "declining discharge pressure",
+      "steady rpm",
+      "rising energy consumption",
+      "oil carryover"
+    ],
+    "root_cause": "Worn rotor seals / internal leakage",
+    "corrective_action": "Replace rotor seal kit, inspect oil separator, verify pressure setpoints.",
+    "severity": "medium"
+  },
+  {
+    "id": 4,
+    "equipment_type": "Exhaust Fan",
+    "title": "Impeller imbalance from debris accumulation",
+    "description": "Vibration spiked sharply within 48 hours due to debris buildup on fan blades causing imbalance. Motor current fluctuated erratically and bearing temperature rose quickly, requiring emergency shutdown.",
+    "symptoms": [
+      "sudden vibration spike",
+      "erratic current",
+      "rapid bearing temp rise"
+    ],
+    "root_cause": "Impeller imbalance from debris",
+    "corrective_action": "Shut down and clean impeller blades, rebalance rotor, inspect bearings for damage.",
+    "severity": "high"
+  },
+  {
+    "id": 5,
+    "equipment_type": "Centrifugal Pump",
+    "title": "Cavitation from suction line restriction",
+    "description": "Partially clogged suction strainer caused cavitation, evident as erratic pressure readings and a distinctive rattling noise. Left unaddressed, cavitation pitted the impeller within a month.",
+    "symptoms": [
+      "erratic pressure",
+      "rattling noise",
+      "reduced flow",
+      "mild vibration increase"
+    ],
+    "root_cause": "Suction strainer clog causing cavitation",
+    "corrective_action": "Clean/replace suction strainer, inspect impeller for cavitation pitting.",
+    "severity": "medium"
+  },
+  {
+    "id": 6,
+    "equipment_type": "Induction Motor",
+    "title": "Rotor bar fault causing torque ripple",
+    "description": "Broken rotor bar produced characteristic current sidebands and torque ripple, detected as periodic RPM fluctuation and a low-frequency vibration harmonic. Progressed to full stall over 10 days.",
+    "symptoms": [
+      "periodic rpm fluctuation",
+      "low-frequency vibration harmonic",
+      "current sidebands"
+    ],
+    "root_cause": "Broken rotor bar",
+    "corrective_action": "Replace rotor or motor, perform current signature analysis on fleet.",
+    "severity": "high"
+  }
+]
